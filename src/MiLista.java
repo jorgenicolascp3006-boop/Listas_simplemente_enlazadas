@@ -235,7 +235,7 @@ public class MiLista implements ListInterface{
         }
         return iterador;
     }
-//xd
+
     @Override
     public Object getBeforeTo(ListNode node) {
         if (node == null || this.cabeza == null || this.cabeza == node) {
